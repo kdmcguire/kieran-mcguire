@@ -18,5 +18,4 @@ min_version = "0.41.0"
 [original]
   name = "Jenil Gogari"
   homepage = "https://jenil.github.io/bulmaswatch/cyborg/"
-
 repo = "//github.com/jenil/bulmaswatch"
