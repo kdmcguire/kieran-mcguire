@@ -1,9 +1,0 @@
-{{ define "main" }}
-<section class="section">
-  <main class="container">
-    {{ range first 5 .Site.RegularPages }}
-    {{ .Render "summary" }}
-    {{ end }}
-  </main>
-</section>
-{{ end }}
