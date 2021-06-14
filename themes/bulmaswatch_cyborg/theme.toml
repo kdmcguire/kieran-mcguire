@@ -1,0 +1,22 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Bulmaswatch_Cyborg"
+license = "MIT"
+# licenselink = ""
+description = "An adaptation of the Bulmaswatch Cyborg theme for Hugo"
+# homepage = ""
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Kieran McGuire"
+  # homepage = ""
+
+# If porting an existing theme
+[original]
+  name = "Jenil Gogari"
+  homepage = "https://jenil.github.io/bulmaswatch/cyborg/"
+
+repo = "//github.com/jenil/bulmaswatch"

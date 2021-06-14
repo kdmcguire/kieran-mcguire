@@ -1,5 +1,4 @@
 baseURL = "/"
 languageCode = "en-uk"
 title = "Kieran McGuire"
-theme = "bulmadark"
-enableRobotsTXT = true
+theme = "bulmaswatch_cyborg"

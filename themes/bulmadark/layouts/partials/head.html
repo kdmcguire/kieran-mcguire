@@ -1,6 +1,0 @@
-<meta charset="utf-8">
-{{ $style := resources.Get "style.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-<title>{{ block "title" . }}
-  {{ .Site.Title }}
-{{ end }}</title>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div id="wrapper">
+      {{ partial "navbar.html" . }}
+      {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+      {{ end }}
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "script.html" . }}
+  </body>
+</html>
