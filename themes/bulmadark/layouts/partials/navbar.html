@@ -1,16 +1,18 @@
-<nav>
-  <div>
-    <a href="/">
-      {{ $.Site.Title }}
-    </a>
-  </div>
+<nav class="navbar is-dark">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        {{ $.Site.Title }}
+      </a>
+    </div>
 
-  <div>
-    <a href="/">
-      Home
-    </a>
-    <a href="/posts">
-      Posts
-    </a>
+    <div class="navbar-start">
+      <a class="navbar-item" href="/">
+        Home
+      </a>
+      <a class="navbar-item" href="/posts">
+        Posts
+      </a>
+    </div>
   </div>
 </nav>

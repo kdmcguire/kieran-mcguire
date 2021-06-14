@@ -1,12 +1,9 @@
 {{ define "main" }}
-  <main>
-    <header>
-      <h1>{{ .Title }}</h1>
-    </header>
-    <div>
-      {{ range first 5 .Site.RegularPages }}
-          {{ .Render "summary" }}
-      {{ end }}
-    </div>
+<section class="section">
+  <main class="container">
+    {{ range first 5 .Site.RegularPages }}
+    {{ .Render "summary" }}
+    {{ end }}
   </main>
+</section>
 {{ end }}
