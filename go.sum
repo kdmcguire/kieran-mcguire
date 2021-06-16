@@ -1,2 +1,3 @@
 github.com/kdmcguire/hugo-theme-terminal v0.0.0-20210615000134-39dd9361f706 h1:5M2Zk30Q+8qPOaxnwy1hNQXvR7VYrs3pXgIpS9j53Rk=
 github.com/kdmcguire/hugo-theme-terminal v0.0.0-20210615000134-39dd9361f706/go.mod h1:9CTvAgZXzRDZHh33GtVS7C3mr20d50FxPI4I2Cbjg6Y=
+github.com/kdmcguire/hugo-theme-terminal-hugo-module v1.0.0/go.mod h1:xePn91o20QqBgSYyOqRX2/zb9m0x3HsD2oXfsrtt5Hw=

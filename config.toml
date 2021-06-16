@@ -1,12 +1,12 @@
 baseURL = "/"
 languageCode = "en-uk"
 title = "Kieran McGuire"
-theme = "github.com/kdmcguire/hugo-theme-terminal"
+theme = "github.com/kdmcguire/hugo-theme-terminal-hugo-module"
 paginate = 5
 
 [module]
   [[module.imports]]
-    path = "github.com/kdmcguire/hugo-theme-terminal"
+    path = "github.com/kdmcguire/hugo-theme-terminal-hugo-module"
     disabled = "false"
 
 [params]
