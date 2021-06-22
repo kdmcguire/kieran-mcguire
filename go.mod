@@ -1,5 +1,5 @@
-module github.com/kdmcguire/kieran-mcguire
+module kieran-mcguire
 
 go 1.15
 
-require github.com/kdmcguire/hugo-theme-terminal-hugo-module v1.0.0 // indirect
+require github.com/panr/hugo-theme-terminal v0.0.0-20210512213322-ca1cc0c3915e // indirect
