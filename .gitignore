@@ -3,6 +3,7 @@
 
 ### Hugo ###
 # Generated files by hugo
+/_vendor/
 /public/
 /resources/_gen/
 hugo_stats.json
