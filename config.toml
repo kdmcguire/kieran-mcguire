@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://kieran-mcguire.uk"
 languageCode = "en-uk"
 title = "Kieran McGuire"
 # theme = ""
@@ -46,7 +46,7 @@ paginate = 5
   # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
   # do not include @
   creator = "kmcguire_dev"
-  site = "https://kieran-mcguire.netlify.app"
+  site = "https://kieran-mcguire.uk"
 
 [languages]
   [languages.en]
