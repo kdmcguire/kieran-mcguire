@@ -61,8 +61,8 @@ The "How to start" section of the Readme mentions a few ways of installing this 
 
 If I was to roughly summarize each one, I would say:
 
-1. The manual method is most useful when you want to do lots of customisation, but it doesn't help you with updates from the source repository.
-2. `git clone` is @panr's recommended method, but doesn't work with hosting platforms (like Netlify!) that *don't like it when you use `git clone` to bring a nested repository into your repository*. (See their note on this in their documentation about [deploying a Hugo site with a theme](https://docs.netlify.com/configure-builds/common-configurations/hugo/#hugo-themes).)
+1. The **manual** method is most useful when you want to do lots of customisation, but it doesn't help you with updates from the source repository.
+2. `git clone` is a commonly recommended method, but doesn't work with hosting platforms (like Netlify!) that *don't like it when you use `git clone` to bring a nested repository into your repository*. (See their note on this in their documentation about [deploying a Hugo site with a theme](https://docs.netlify.com/configure-builds/common-configurations/hugo/#hugo-themes).)
 3. `git submodule` is like `git clone` with cleaner separation, but it's also more complex and more finnicky. On paper, it should have worked with Netlify but it didn't work for me.
 
 However, I have opted for a fourth method: **Hugo modules**.
