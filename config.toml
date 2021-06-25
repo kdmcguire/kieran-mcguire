@@ -3,6 +3,7 @@ languageCode = "en-uk"
 title = "Kieran McGuire"
 # theme = ""
 paginate = 5
+disqusShortname = "kieran-mcguire"
 
 [module]
   [[module.imports]]
