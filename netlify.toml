@@ -33,8 +33,9 @@ HUGO_ENABLEGITINFO = "true"
   for = "/*"
   [headers.values]
     cache-control = '''
-    max-age=300'''
-    Content-Security-Policy = "default-src kieran-mcguire.uk kieran-mcguire.netlify.app deploy-preview-*--kieran-mcguire.netlify.app"
+    max-age=300,
+    must-revalidate'''
+    Content-Security-Policy = "default-src https://kieran-mcguire.uk https://kieran-mcguire.netlify.app https://deploy-preview-*--kieran-mcguire.netlify.app"
     Permissions-Policy = "geolocation=(), microphone=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
