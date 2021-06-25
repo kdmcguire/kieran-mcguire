@@ -12,7 +12,8 @@ HUGO_ENABLEGITINFO = "true"
     cache-control = '''
     max-age=300,
     must-revalidate'''
-    Content-Security-Policy = "default-src https://kieran-mcguire.uk; default-src https: 'unsafe-inline' 'unsafe-eval'"
+    Content-Security-Policy = "default-src https://kieran-mcguire.uk"
+    Content-Security-Policy-Report-Only = "default-src https: 'unsafe-inline' 'unsafe-eval'"
     Permissions-Policy = "geolocation=(), microphone=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
