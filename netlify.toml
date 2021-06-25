@@ -6,6 +6,18 @@ command = "hugo --gc --minify"
 HUGO_VERSION = "0.83.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    cache-control = '''
+    max-age=300,
+    must-revalidate'''
+    Content-Security-Policy-Report-Only = "default-src https://kieran-mcguire.uk"
+    Permissions-Policy = "geolocation=(), microphone=()"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
@@ -28,16 +40,3 @@ HUGO_VERSION = "0.83.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    cache-control = '''
-    max-age=300,
-    must-revalidate'''
-    Content-Security-Policy = "default-src https://kieran-mcguire.uk https://netlify.app"
-    Permissions-Policy = "geolocation=(), microphone=()"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
