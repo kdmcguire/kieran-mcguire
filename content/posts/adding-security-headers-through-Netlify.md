@@ -72,9 +72,9 @@ This line caused me the most pain. I'm basically trying to tell the browser that
 
 However, I initially started the Content Security Policy (CSP) without this part - `script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'` - and found that my theme stopped working.
 
-What the site wants to do is inline some CSS and JS (prism.js provides the theme-appropriate code highlighting) into the HTML, probably for the sake of speed. That inlining was being blocked, so what I was seeing was an ugly, un-styled page.
+What the site wants to do is inline some CSS and JS (e.g. prism.js provides the theme-appropriate code highlighting) into the HTML, probably for the sake of speed. That inlining was being blocked, so what I was seeing was an ugly, un-styled page.
 
-Unless you tell it otherwise, your CSP will prevent inlining by default.The reason for this is: if attackers have control of a remote asset that your site uses, they could use that asset to inline malicious code directly into your page. It is a risk that should be avoided if possible.
+Unless you tell it otherwise, your CSP will prevent inlining by default. The reason for this is: if attackers have control of a remote asset that your site uses, they could use that asset to inline malicious code directly into your page. It is a risk that should be avoided if possible.
 
 By adding `script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'` I'm telling the browser to allow script and style assets from my site alone to inline into HTML. This undermines the integrity of the Content-Security-Policy a little, but I don't have another option at the moment.
 
