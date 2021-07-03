@@ -8,6 +8,7 @@ tags = ["tech", "Hugo", "JAMstack"]
 keywords = ["blog", "Hugo", "Static Site Generator"]
 description = "How it works!"
 showFullContent = false
+draft = false
 +++
 
 This blog is relatively minimal, and has only three core parts:
