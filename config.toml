@@ -73,8 +73,8 @@ enableEmoji = true
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
-        url = "/about"
+        url = "/about/"
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
-        url = "/posts"
+        url = "/posts/"
