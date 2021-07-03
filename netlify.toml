@@ -10,7 +10,7 @@ HUGO_ENABLEGITINFO = "true"
   for = "/*"
   [headers.values]
     Cache-Control = '''
-    max-age=86400,
+    max-age=2592000,
     nocache,
     public'''
     Content-Security-Policy = "default-src https://kieran-mcguire.uk https://kieran-mcguire.netlify.app; script-src https://kieran-mcguire.uk https://kieran-mcguire.netlify.app 'unsafe-inline'; style-src https://kieran-mcguire.uk https://kieran-mcguire.netlify.app 'unsafe-inline'"
