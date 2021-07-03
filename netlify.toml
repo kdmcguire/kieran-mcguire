@@ -10,8 +10,10 @@ HUGO_ENABLEGITINFO = "true"
   for = "/*"
   [headers.values]
     Cache-Control = '''
-    max-age=300,
-    must-revalidate'''
+    max-age=86400,
+    nocache,
+    must-revalidate,
+    public'''
     Content-Security-Policy = "default-src https://kieran-mcguire.uk https://kieran-mcguire.netlify.app; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'"
     Permissions-Policy = "geolocation=(), microphone=()"
     Referrer-Policy = "strict-origin-when-cross-origin"
