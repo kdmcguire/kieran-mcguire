@@ -19,16 +19,6 @@ HUGO_ENABLEGITINFO = "true"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-[[redirects]]
-  from = "https://kieranmcguire.uk/*"
-  to = "https://kieran-mcguire.uk/:splat"
-  status = "301"
-  force = "true"
-[[redirects]]
-  from = "https://www.kieranmcguire.uk/*"
-  to = "https://kieran-mcguire.uk/:splat"
-  status = "301"
-  force = "true"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
