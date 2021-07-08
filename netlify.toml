@@ -2,6 +2,22 @@
 publish = "public"
 command = "hugo --gc --minify"
 
+[[redirects]]
+  from = "https://kieranmcguire.uk/*"
+  to = "https://kieran-mcguire.uk/:splat"
+  status = "301"
+  force = "true"
+[[redirects]]
+  from = "https://www.kieranmcguire.uk/*"
+  to = "https://kieran-mcguire.uk/:splat"
+  status = "301"
+  force = "true"
+[[redirects]]
+  from = "https://kieran-mcguire.netlify.app"
+  to = "https://kieran-mcguire.uk/"
+  status = 301
+  force = true
+
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
 HUGO_ENV = "production"
