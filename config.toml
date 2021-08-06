@@ -54,15 +54,15 @@ enableEmoji = true
     languageName = "English"
     title = "Kieran McGuire"
     subtitle = "Digital | Agile | Culture"
-    owner = ""
+    owner = "Kieran McGuire"
     keywords = ""
-    copyright = ""
+    copyright = "Kieran McGuire"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    missingContentMessage = "Whoops. You're lost, or this is broken, but either way there's nothing here."
+    missingContentMessage = "Whoops. Either you're in the wrong place, or this is broken. Please go back!"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
