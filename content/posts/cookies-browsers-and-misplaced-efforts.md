@@ -1,6 +1,6 @@
 +++
 title = "Cookies, Browsers, and Misplaced Efforts"
-date = "2021-08-06T22:53:44+01:00"
+date = "2021-08-07T15:54:44+01:00"
 author = "Kieran"
 authorTwitter = "kmcguire_dev" #do not include @
 cover = ""
