@@ -35,6 +35,10 @@ HUGO_ENABLEGITINFO = "true"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = '''
+	  max-age=63072000;
+	  includeSubDomains;
+	  preload'''
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
