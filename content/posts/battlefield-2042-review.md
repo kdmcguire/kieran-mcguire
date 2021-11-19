@@ -6,7 +6,7 @@ authorTwitter = "kmcguire_dev" #do not include @
 cover = ""
 tags = ["reviews", "games", "Battlefield 2042", "Battlefield"]
 keywords = ["Battlefield 2042", "Battlefield", "review"]
-description = "Don't bother if you prefer on-foot gunplay"
+description = "Don't bother if you prefer on-foot gunplay."
 showFullContent = false
 draft = false
 +++
