@@ -1,18 +1,26 @@
 +++
 title = "Draft"
-date = "2021-08-31T08:51:06+01:00"
+date = "2021-11-19"
 author = "Kieran"
 authorTwitter = "kmcguire_dev" #do not include @
-cover = "img/cyberpunk-2077-skyline.webp"
-tags = ["reviews", "games", "Cyberpunk 2077"]
-keywords = ["Cyberpunk 2077", "review"]
-description = "A flawed but still emotional and compelling ride."
+cover = ""
+tags = ["reviews", "games", "Battlefield 2042", "Battlefield"]
+keywords = ["Battlefield 2042", "Battlefield", "review"]
+description = "Don't bother if you prefer on-foot gunplay"
 showFullContent = false
 draft = true
 +++
 
-This game suffers from sub-par open-world AI (i.e. crowds and traffic), performance issues, and many, many bugs. The bugs I experienced were mostly minor, like random things colliding badly, or stuff that's glitched into other stuff, but I did once have a quest become un-finishable until I went back and did something different. Other people have obviously experienced worse bugs. BUT.
+I got the 10 hour trial through Game Pass and, at hour 9, realised that I was hating Battlefield 2042. I wanted to love it, so I really tried, but I stopped having fun at some point. The enjoyment quickly faded and only grind and pain remained.
 
-If you can get past that, there is a brilliant, evocative, thrilling, disturbing, raucous, emotional story here, with compelling characters on one hell of a journey. I did not expect to feel so sad at finishing this game, and I got a happy ending, but I know I'll never 'finish' it for the first time again.
+I haven't played the Battlefield games a lot over the years, so I'm not feeling the lack of features compared to older titles that much (except: where are the fortifications?!), and I didn't experience an unexpected number of bugs for a beta.
 
-Jackie. Johnny. Night City. So long, choombas.
+Sadly, it's the design choices and direction of the game that I can't get on with.
+
+This game made me realise that I strongly prefer on-foot gunplay, and a pace somewhere (undefined) between hardcore and arcade. I also have a slight preference for longer-ranges, though I'm not particularly good at it! Vehicle combat doesn't really interest me at all. Veterans of the Battlefield series will recognise that as being at odds with its core ingredients: big maps and lots of vehicles.
+
+My first real taste of the series was Battlefield V, which had fewer, less powerful vehicles and smaller, denser maps with comparatively plentiful cover for infantry. An enemy tank or plane would kill you, and I am glad they were there to raise the stakes even if I didn't want to drive them myself, but they weren't swarming you in overwhelming numbers.
+
+Trying to run across open ground only to be obliterated by attack helicopters and hovercrafts is infuriating. Trying to capture a territory point, only to be obliterated by attack helicopters and hovercrafts, is infuriating. Finding a vantage point to snipe two people before being obliterated by attack helicopters and, incredibly, a hovercraft scaling a building, is infuriating.
+
+I deleted Battlefield 2042 and got a refund.
